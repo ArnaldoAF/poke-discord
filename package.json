@@ -1,0 +1,23 @@
+{
+  "name": "poke-discord",
+  "version": "1.0.0",
+  "description": "Bot de Pokémon estilo Pokémon Community Game (Twitch) para Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node src/setup.js"
+  },
+  "keywords": [
+    "pokemon",
+    "discord",
+    "bot",
+    "pcg",
+    "game"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
